@@ -1,14 +1,18 @@
+#include <vector>
+
 class Fofo
 {
 public:
-    Fofo();
-    ~Fofo();
+    Fofo(int dat_A);
+    ~Fofo() = default;
+    Fofo& operator=(const Fofo& other) = delete;
+    Fofo(const Fofo& other) = delete;
     
-    Fofo(const Fofo& other);
-    
-    Fofo& operator=(const Fofo& other);
+    void init();
+    void print();
     
 private:
     int m_private;
+    std::vector<int> m_num;
     
 };
