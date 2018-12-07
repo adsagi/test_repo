@@ -14,6 +14,7 @@ int main()
     
     Fofo a(50);
     //stam
+	//addition from Windows
     
     a.init();
     a.print();
