@@ -15,6 +15,7 @@ int main()
     Fofo a(50);
     //stam
 	//addition from Windows
+	//This is in github
 	//this is a new addition in Windows master branch
     
     a.init();
