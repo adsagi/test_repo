@@ -13,6 +13,7 @@ int main()
     }
     
     Fofo a(50);
+    //stam
     
     a.init();
     a.print();
