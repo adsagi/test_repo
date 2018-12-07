@@ -1,5 +1,7 @@
+//Some trivial change
 int main()
 {
+    int r = 5;
     
-    return 0;
+    return r;
 }
